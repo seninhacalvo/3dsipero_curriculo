@@ -1,0 +1,50 @@
+/* *{
+    outline: 1px dashed lightcoral;
+} */
+
+:root{
+    --primary-color:#700f3c;
+    --secondary-color:#a6096a;
+    --tertiary-color:#de045b;
+    --quaternary-color:#7804de;
+    --quinary-clor:#f8c8c4;
+    --lingth-color:white;
+    --dark-color:black;
+    --grayscale:#f2f2f2;
+
+    /* Tamanhos Padrões */
+    --extra-smail-size:4px;
+    --smail-size:8px;
+    --medium-size:16px;
+    --large-size:32px;
+    --extra-large-size:64px;
+
+}
+
+.header{
+    background: var(--secondary-color);
+    background: linear-gradient(90deg, var(--secondary-color) 0%, var(--tertiary-color) 100%);
+}
+
+.header__title{
+    color: var(--lingth-color);
+}
+
+.header__social-icons {
+    color: var(--lingth-color);
+}
+
+.skills__column-left{
+    background: var(--quaternary-color);
+}
+
+.skills__title{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.skills__label{
+    font-size: 0.8rem;
+    color: var(--lingth-color);
+}
